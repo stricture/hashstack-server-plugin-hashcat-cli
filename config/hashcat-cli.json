@@ -1,0 +1,194 @@
+[
+    {
+        "algorithm": "bcrypt, Blowfish(OpenBSD)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Fortigate (FortiOS)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5(md5(md5($pass)))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5(md5($pass).md5($salt))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5(md5($salt).$pass)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5($pass.md5($salt))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5($salt.md5($pass.$salt))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5($salt.md5($salt.$pass))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "MD5(Sun)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5($username.0.$pass)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha1(sha1(sha1($pass)))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "WebEdition CMS", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }
+]

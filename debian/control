@@ -1,0 +1,14 @@
+Source: hashstack-server-plugin-hashcat-cli
+Maintainer: Jeremi Gosney <jgosney@stricture-group.com> 
+Section: misc
+Priority: important
+Standards-Version: 3.9.2
+Build-Depends: make
+
+Package: hashstack-server-plugin-hashcat-cli
+Architecture: amd64
+Recommends: hashstack-server-core
+Description: hashcat-cli server plugin for Hashstack
+ hashcat-cli server plugin for Hashstack
+ .
+ hashcat-cli server plugin for Hashstack, based on hashcat-cli 0.47
