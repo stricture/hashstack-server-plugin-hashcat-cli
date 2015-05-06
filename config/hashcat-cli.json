@@ -13,7 +13,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$2%01l$%02d$%53s"
     }, 
     {
         "algorithm": "Fortigate (FortiOS)", 
@@ -29,7 +30,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%47s"
     }, 
     {
         "algorithm": "md5(md5(md5($pass)))", 
@@ -45,7 +47,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x"
     }, 
     {
         "algorithm": "md5(md5($pass).md5($salt))", 
@@ -61,7 +64,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "md5(md5($salt).$pass)", 
@@ -77,7 +81,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "md5($pass.md5($salt))", 
@@ -93,7 +98,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "md5($salt.md5($pass.$salt))", 
@@ -109,7 +115,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "md5($salt.md5($salt.$pass))", 
@@ -125,7 +132,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "MD5(Sun)", 
@@ -141,7 +149,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$md5$rounds=%*d$%*s$%22s"
     }, 
     {
         "algorithm": "md5($username.0.$pass)", 
@@ -157,7 +166,25 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
+    }, 
+    {
+        "algorithm": "scrypt", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single", 
+        "valid": "SCRYPT:%*d:%*d:%*d:%*s:%44s"
     }, 
     {
         "algorithm": "sha1(sha1(sha1($pass)))", 
@@ -173,7 +200,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x"
     }, 
     {
         "algorithm": "WebEdition CMS", 
@@ -189,6 +217,7 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }
 ]
